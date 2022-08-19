@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:layout_gravity="center_vertical"
+    android:background="@color/white"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp"
+        android:background="#76D2EA"
+        android:orientation="vertical">
+<!--        android:layout_below="@id/image"-->
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/person_bg">
+        </ImageView>
+        <TextView
+            android:id="@+id/usernameDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="username:"
+            android:textColor="@color/white"
+            android:textSize="35sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/startdatedialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" sub start date:"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/enddatedialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="sub end date:"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/birthdaydialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="birthday:"
+            android:textColor="#76D2EA"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/heightdialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="height:"
+            android:textColor="#76D2EA"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/weightdialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="weight:"
+            android:textColor="#76D2EA"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bodyfatdialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="body_fat:"
+            android:textColor="#76D2EA"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/genderdialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="gender:"
+            android:textColor="#76D2EA"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

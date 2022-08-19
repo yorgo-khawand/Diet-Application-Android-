@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/drfragment"
+    android:icon="@drawable/ic_home"
+    android:title="Account">
+
+</item>
+    <item android:id="@+id/appointmentfragment"
+        android:icon="@drawable/ic_appointment"
+        android:title="MakeAppointment">
+
+    </item>
+    <item android:id="@+id/viewappfragment"
+        android:icon="@drawable/ic_viewapp"
+        android:title="ViewAppointments"/>
+    <item android:id="@+id/dietplanfragment"
+        android:icon="@drawable/ic_dietplan"
+        android:title="MakePlans">
+
+    </item>
+</menu>

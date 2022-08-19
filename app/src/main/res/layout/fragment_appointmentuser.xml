@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_background"
+    tools:context="com.example.projet.AppointmentFragmentUser">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lel"
+            android:stretchColumns="1,2,3,4">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200">
+
+
+                <TextView
+                    android:layout_column="1"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="date"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_column="2"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="day"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_column="3"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="time"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/purple_200">
+
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_column="1"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_column="2"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_column="3"
+                    android:background="@drawable/back"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:layout_below="@+id/lel"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="72dp"
+            android:layout_marginBottom="156dp"
+            android:background="@drawable/appointment" />
+
+
+    </RelativeLayout>
+</FrameLayout>
